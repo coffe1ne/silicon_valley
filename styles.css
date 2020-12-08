@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+h1 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4.5rem;
+    line-height: 5.25rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 4.67rem;
+    text-align: center;
+    color: #007765;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #007765;
+    margin: 12px 0 0 0;
+}
+
+p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 2.3125rem;
+    color: #000000;
+}
+
+span {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    color: #000000;
+}
+
+/* header styles */
+header {
+    background: #007765;
+    height: 84px;
+    color: #ffffff;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.header-logo img {
+    width: 184px;
+    height: 45px;
+    float: left;
+    margin: 18px auto;
+}
+
+.header-nav {
+    float: right;
+    margin: 15px auto;
+    vertical-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    padding: 0 5px;
+}
+
+/* jumbotron styles */
+.jumbotron {
+    background-image: url("img/jumbotron.png");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 244px;
+    padding-bottom: 160px;
+}
+
+/* problem styles */
+.problem {
+    padding-top: 48px;
+    padding-bottom: 92px;
+    background-color: #eeeeee;
+}
+
+/* hero styles */
+.hero {
+    background-image: url("img/hero.png");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.hero__message {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* intro pp-coin styles */
+.pp-coin {
+    padding-top: 48px;
+    padding-bottom: 92px;
+    background-color: #ffffff;
+}
+
+figure {
+    float: left;
+    clear: both;
+    display: table;
+    margin: 20px 48px 0 0;
+}
+
+.pp-coin img {
+    margin-top: 10px;
+}
+
+/* team styles */
+.team {
+    padding-top: 58px;
+    padding-bottom: 84px;
+    background-color: #eeeeee;
+}
+
+.workers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.photo {
+    flex-basis: 33%;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+/* footer styles */
+footer {
+    background-color: #333333;
+    padding-top: 50px;
+    padding-bottom: 62px;
+}
+
+.footer__message {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    font-style: normal;
+    text-align: center;
+}
